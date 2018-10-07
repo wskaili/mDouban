@@ -1,0 +1,58 @@
+/**index.wxss**/
+
+page {
+  background:#FFFFFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.container {
+  padding: 20rpx 40rpx;
+}
+.movie-item {
+  display: flex;
+  margin-bottom: 30rpx;
+  width: 100%;
+}
+.movie-img {
+  width: 200rpx;
+  height: 300rpx;
+  margin-right: 20rpx;
+  min-width: 200rpx;
+	max-width: 200rpx;
+}
+.movie-info {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.6;
+}
+.name, .age {
+  font-size: 54rpx;
+  font-weight: 500
+}
+.year {
+  margin-left: 10rpx;
+  color: #ccc;
+}
+.txt-title {
+  color: #666;
+}
+.acts {
+  display: flex;
+}
+.act-names {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  flex: 1;
+}
+.act-name {
+  margin-right: 15rpx;
+}
+.rating {
+  color: red;
+}
+.age {
+  margin-left: 10rpx;
+  color: rgb(190, 187, 187);
+}

@@ -1,0 +1,25 @@
+<template name="movie-items">
+  <view class="movie-item" wx:for="{{movies}}" wx:key="index">
+   <image src="{{item.images.small}}" class='movie-img'></image>
+   <view class='movie-info'>
+    <view class='acts'>
+      <text class='name'>{{item.title}}</text>
+      <text class='age'>({{item.year}})</text>
+    </view> 
+    <view>
+      <text class="txt-title">评分：</text>
+      <text class='rating'>{{item.rating.average}}</text>
+    </view>
+    <view>
+      <text class="txt-title">分类：</text>
+      <text>{{item.genres}}</text>
+    </view>
+    <view class='acts'>
+      <text class="txt-title">主演：</text>
+      <view class='act-names'>
+        <text wx:for="{{item.casts}}" wx:for-item="act" class="act-name" wx:key="index">{{act.name}}</text>
+      </view>
+    </view>
+   </view>
+  </view>
+</template>

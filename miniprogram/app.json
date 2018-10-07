@@ -1,0 +1,23 @@
+{
+  "cloud": true,
+  "pages": [
+    "pages/index/index",
+    "pages/comingsoon/comingsoon"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "豆瓣电影",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "正在热映"
+    },{
+      "pagePath": "pages/comingsoon/comingsoon",
+      "text": "即将上映"
+    }]
+  }
+}

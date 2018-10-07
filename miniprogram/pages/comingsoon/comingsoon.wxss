@@ -1,0 +1,12 @@
+/* pages/comingsoon/comingsoon.wxss */
+@import "../common/common.wxss";
+page {
+  background:#FFFFFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.container {
+  padding: 20rpx 40rpx;
+}
+
