@@ -1,3 +1,7 @@
+.movie-content {
+  width: 100%;
+  overflow-x: hidden;
+}
 .movie-item {
   display: flex;
   margin-bottom: 30rpx;
@@ -11,9 +15,10 @@
 	max-width: 200rpx;
 }
 .movie-info {
-  display: flex;
+  flex: 1;
+  /* display: flex;
   flex-direction: column;
-  line-height: 1.6;
+  line-height: 1.6; */
 }
 .name, .age {
   font-size: 54rpx;
@@ -44,4 +49,9 @@
 .age {
   margin-left: 10rpx;
   color: rgb(190, 187, 187);
+}
+.no-data {
+  margin-top: 20rpx;
+  text-align: center;
+  display: block;
 }

@@ -1,5 +1,5 @@
 <!--pages/comingsoon/comingsoon.wxml-->
 <import src="../common/common"/>
 <view class="container" scroll-y="true">
-<template is="movie-items" data="{{movies}}"/>
+<template is="movie-items" data="{{movies, hasMore}}"/>
 </view>
